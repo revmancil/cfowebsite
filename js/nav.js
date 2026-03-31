@@ -2,16 +2,7 @@ const NAV_TEMPLATE = `
   <nav class="navbar" id="navbar">
     <div class="nav-inner">
       <a href="./index.html" class="nav-logo" aria-label="MC3 Tech Labs home">
-        <svg viewBox="0 0 48 48" aria-hidden="true">
-          <defs>
-            <linearGradient id="mc3GradientNav" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#00C48C"></stop>
-              <stop offset="100%" stop-color="#5B5EA6"></stop>
-            </linearGradient>
-          </defs>
-          <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#mc3GradientNav)"></rect>
-          <path d="M14 30V18h4.5l5.5 7 5.5-7H34v12h-3.8v-6l-6.2 7.8L17.8 24v6H14z" fill="#FFFFFF"></path>
-        </svg>
+        <img src="./assets/icons/mc3-tech-logo.svg" alt="MC3 Tech Labs logo" class="brand-logo-img" />
         MC3 Tech Labs
       </a>
       <ul class="nav-links">

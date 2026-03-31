@@ -190,10 +190,10 @@ ol {
   font-weight: 700;
 }
 
-.nav-logo svg {
-  width: 28px;
-  height: 28px;
-  color: var(--color-accent);
+.brand-logo-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -464,9 +464,9 @@ ol {
   margin-bottom: 0.8rem;
 }
 
-.footer-logo svg {
-  width: 28px;
-  height: 28px;
+.footer-logo .brand-logo-img {
+  width: 34px;
+  height: 34px;
 }
 
 .social-links {
