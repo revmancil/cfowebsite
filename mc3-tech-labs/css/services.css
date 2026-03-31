@@ -1,0 +1,80 @@
+main {
+  padding-top: 5.5rem;
+}
+
+.service-hero {
+  background:
+    radial-gradient(circle at 85% 10%, rgba(245, 166, 35, 0.18), transparent 34%),
+    linear-gradient(160deg, #ffffff 0%, #eef3ff 100%);
+}
+
+.service-hero-grid {
+  display: grid;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.service-hero-card {
+  background: var(--color-white);
+  border: 1px solid rgba(10, 37, 64, 0.1);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: 1.75rem;
+}
+
+.service-hero-card h2 {
+  margin-bottom: 1rem;
+}
+
+.service-hero-card ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.service-section {
+  background: var(--color-white);
+}
+
+.service-section.alt {
+  background: #eef3ff;
+}
+
+.service-content {
+  max-width: 780px;
+  background: var(--color-bg);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: 1.75rem;
+}
+
+.service-content ul {
+  margin: 1rem 0 0;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.service-cta .container {
+  background: var(--color-primary);
+  color: rgba(255, 255, 255, 0.88);
+  border-radius: var(--radius-card);
+  text-align: center;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.service-cta h2 {
+  color: var(--color-white);
+}
+
+.service-cta p {
+  max-width: 600px;
+  margin: 0.8rem auto 1.4rem;
+}
+
+@media (min-width: 860px) {
+  .service-hero-grid {
+    grid-template-columns: 1.3fr 1fr;
+  }
+}
