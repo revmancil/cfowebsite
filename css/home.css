@@ -15,6 +15,12 @@
   font-size: clamp(2rem, 5vw, 3.25rem);
 }
 
+.hero-brand-logo {
+  width: min(420px, 88%);
+  height: auto;
+  margin: 0 0 1rem;
+}
+
 .hero-copy p {
   color: rgba(255, 255, 255, 0.86);
   margin-top: 1rem;
@@ -25,6 +31,19 @@
   gap: 0.9rem;
   flex-wrap: wrap;
   margin-top: 1.5rem;
+}
+
+.home-hero .btn-outline {
+  border-color: rgba(213, 183, 121, 0.9);
+  color: #FFFFFF;
+  background: rgba(11, 17, 28, 0.36);
+  font-weight: 700;
+}
+
+.home-hero .btn-outline:hover {
+  background: rgba(213, 183, 121, 0.2);
+  border-color: #E0C080;
+  color: #FFFFFF;
 }
 
 .hero-card {
