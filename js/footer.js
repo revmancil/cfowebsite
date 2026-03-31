@@ -45,7 +45,7 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div class="footer-brand">
-          <a href="/index.html" class="footer-logo">
+          <a href="./index.html" class="footer-logo">
             ${logoSvg}
             <span>MC3 Tech Labs</span>
           </a>
@@ -62,23 +62,23 @@
 
         <div class="footer-col">
           <h3>Our Products</h3>
-          <a href="/missionledger.html">MissionLedger</a>
-          <a href="/ministryledger.html">MinistryLedger</a>
-          <a href="/xallo.html">Xallo</a>
+          <a href="./missionledger.html">MissionLedger</a>
+          <a href="./ministryledger.html">MinistryLedger</a>
+          <a href="./xallo.html">Xallo</a>
         </div>
 
         <div class="footer-col">
           <h3>Services</h3>
-          <a href="/services.html#website">Website Design</a>
-          <a href="/services.html#seo">SEO Services</a>
-          <a href="/index.html#contact">Free Consultation</a>
+          <a href="./services.html#website">Website Design</a>
+          <a href="./services.html#seo">SEO Services</a>
+          <a href="./index.html#contact">Free Consultation</a>
         </div>
 
         <div class="footer-col">
           <h3>Company</h3>
-          <a href="/index.html#about">About Us</a>
-          <a href="/index.html#pricing">Pricing</a>
-          <a href="/index.html#contact">Contact Us</a>
+          <a href="./index.html#about">About Us</a>
+          <a href="./index.html#pricing">Pricing</a>
+          <a href="./index.html#contact">Contact Us</a>
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
         </div>

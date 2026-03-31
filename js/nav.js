@@ -1,7 +1,7 @@
 const NAV_TEMPLATE = `
   <nav class="navbar" id="navbar">
     <div class="nav-inner">
-      <a href="/index.html" class="nav-logo" aria-label="MC3 Tech Labs home">
+      <a href="./index.html" class="nav-logo" aria-label="MC3 Tech Labs home">
         <svg viewBox="0 0 48 48" aria-hidden="true">
           <defs>
             <linearGradient id="mc3GradientNav" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -20,25 +20,25 @@ const NAV_TEMPLATE = `
             Products <span class="chevron">▾</span>
           </button>
           <div class="dropdown-menu">
-            <a href="/missionledger.html">
+            <a href="./missionledger.html">
               <span class="dropdown-label">MissionLedger</span>
               <span class="dropdown-sub">Accounting for nonprofits</span>
             </a>
-            <a href="/ministryledger.html">
+            <a href="./ministryledger.html">
               <span class="dropdown-label">MinistryLedger</span>
               <span class="dropdown-sub">Finance tools for churches</span>
             </a>
-            <a href="/xallo.html">
+            <a href="./xallo.html">
               <span class="dropdown-label">Xallo</span>
               <span class="dropdown-sub">Personal finance, simplified</span>
             </a>
           </div>
         </li>
-        <li><a href="/services.html" class="nav-link">Services</a></li>
-        <li><a href="/index.html#about" class="nav-link">About</a></li>
-        <li><a href="/index.html#contact" class="nav-link">Contact</a></li>
+        <li><a href="./services.html" class="nav-link">Services</a></li>
+        <li><a href="./index.html#about" class="nav-link">About</a></li>
+        <li><a href="./index.html#contact" class="nav-link">Contact</a></li>
       </ul>
-      <a href="/index.html#contact" class="btn btn-accent">Get Started</a>
+      <a href="./index.html#contact" class="btn btn-accent">Get Started</a>
       <button class="hamburger" id="hamburger" aria-label="Open menu" type="button">
         <span></span><span></span><span></span>
       </button>
@@ -62,29 +62,29 @@ function renderNav() {
 
   mobileMenu.innerHTML = `
     <div class="mobile-menu-inner">
-      <a href="/index.html" class="mobile-link">Home</a>
+      <a href="./index.html" class="mobile-link">Home</a>
       <div class="mobile-products">
         <button class="mobile-products-trigger" type="button" aria-expanded="false">
           Products <span class="chevron">▾</span>
         </button>
         <div class="mobile-products-panel">
-          <a href="/missionledger.html">MissionLedger</a>
-          <a href="/ministryledger.html">MinistryLedger</a>
-          <a href="/xallo.html">Xallo</a>
+          <a href="./missionledger.html">MissionLedger</a>
+          <a href="./ministryledger.html">MinistryLedger</a>
+          <a href="./xallo.html">Xallo</a>
         </div>
       </div>
-      <a href="/services.html" class="mobile-link">Services</a>
-      <a href="/index.html#about" class="mobile-link">About</a>
-      <a href="/index.html#contact" class="mobile-link">Contact</a>
-      <a href="/index.html#contact" class="btn btn-accent">Get Started</a>
+      <a href="./services.html" class="mobile-link">Services</a>
+      <a href="./index.html#about" class="mobile-link">About</a>
+      <a href="./index.html#contact" class="mobile-link">Contact</a>
+      <a href="./index.html#contact" class="btn btn-accent">Get Started</a>
     </div>
   `;
 
   const pageMap = {
-    missionledger: 'a[href="/missionledger.html"]',
-    ministryledger: 'a[href="/ministryledger.html"]',
-    xallo: 'a[href="/xallo.html"]',
-    services: 'a[href="/services.html"]'
+    missionledger: 'a[href="./missionledger.html"]',
+    ministryledger: 'a[href="./ministryledger.html"]',
+    xallo: 'a[href="./xallo.html"]',
+    services: 'a[href="./services.html"]'
   };
 
   const activeSelector = pageMap[page];
