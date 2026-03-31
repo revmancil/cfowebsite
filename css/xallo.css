@@ -1,5 +1,5 @@
  .product-hero {
-   background: linear-gradient(135deg, rgba(91, 94, 166, 0.15), rgba(0, 196, 140, 0.13));
+   background: linear-gradient(135deg, rgba(100, 104, 107, 0.15), rgba(213, 183, 121, 0.13));
  }
 
  .hero-shell {
@@ -50,7 +50,7 @@
 
  .feature-card {
    background: var(--color-bg);
-   border: 1px solid rgba(10, 37, 64, 0.1);
+   border: 1px solid rgba(11, 17, 28, 0.1);
    border-radius: var(--radius-card);
    padding: 1.55rem;
    box-shadow: var(--shadow-card);
@@ -85,7 +85,7 @@
  .journey-steps li {
    list-style: none;
    background: var(--color-white);
-   border: 1px solid rgba(10, 37, 64, 0.09);
+   border: 1px solid rgba(11, 17, 28, 0.09);
    border-radius: var(--radius-card);
    padding: 1.2rem 1.25rem 1.2rem 3.3rem;
    position: relative;

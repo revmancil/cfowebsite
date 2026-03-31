@@ -4,8 +4,8 @@ main {
 
 .service-hero {
   background:
-    radial-gradient(circle at 85% 10%, rgba(245, 166, 35, 0.18), transparent 34%),
-    linear-gradient(160deg, #ffffff 0%, #eef3ff 100%);
+    radial-gradient(circle at 85% 10%, rgba(224, 192, 128, 0.18), transparent 34%),
+    linear-gradient(160deg, #ffffff 0%, #ECEFF2 100%);
 }
 
 .service-hero-grid {
@@ -16,7 +16,7 @@ main {
 
 .service-hero-card {
   background: var(--color-white);
-  border: 1px solid rgba(10, 37, 64, 0.1);
+  border: 1px solid rgba(11, 17, 28, 0.1);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
   padding: 1.75rem;
@@ -38,7 +38,7 @@ main {
 }
 
 .service-section.alt {
-  background: #eef3ff;
+  background: #ECEFF2;
 }
 
 .service-content {

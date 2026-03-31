@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Syne+Mono&family=DM+Sans:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&family=Space+Grotesk:wght@400;500;700&family=DM+Mono&display=swap');
 
 :root {
-  --color-primary: #0A2540;
-  --color-accent: #00C48C;
-  --color-highlight: #F5A623;
-  --color-indigo: #5B5EA6;
-  --color-bg: #F7F9FC;
-  --color-text: #1A1A2E;
+  --color-primary: #0B111C;
+  --color-accent: #D5B779;
+  --color-highlight: #E0C080;
+  --color-indigo: #64686B;
+  --color-bg: #F3F4F6;
+  --color-text: #2F343A;
   --color-white: #FFFFFF;
-  --color-muted: #6B7280;
+  --color-muted: #6B7075;
 
   --font-display: "Syne", sans-serif;
   --font-body: "DM Sans", sans-serif;
@@ -125,17 +125,17 @@ ol {
 
 .btn-accent:hover {
   transform: translateY(-1px);
-  box-shadow: 0 12px 24px rgba(0, 196, 140, 0.3);
+  box-shadow: 0 12px 24px rgba(213, 183, 121, 0.3);
 }
 
 .btn-outline {
-  border-color: rgba(10, 37, 64, 0.25);
+  border-color: rgba(11, 17, 28, 0.25);
   color: var(--color-primary);
   background: transparent;
 }
 
 .btn-outline:hover {
-  background: rgba(10, 37, 64, 0.08);
+  background: rgba(11, 17, 28, 0.08);
 }
 
 .section-head {
@@ -147,7 +147,7 @@ ol {
   background: var(--color-white);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
-  border: 1px solid rgba(10, 37, 64, 0.08);
+  border: 1px solid rgba(11, 17, 28, 0.08);
   transition: var(--transition);
 }
 
@@ -161,14 +161,14 @@ ol {
   top: 0;
   z-index: 1000;
   width: 100%;
-  background: rgba(10, 37, 64, 0.84);
+  background: rgba(11, 17, 28, 0.84);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   transition: var(--transition);
 }
 
 .navbar.scrolled {
   backdrop-filter: blur(12px);
-  background: rgba(10, 37, 64, 0.92);
+  background: rgba(11, 17, 28, 0.92);
   box-shadow: 0 10px 30px rgba(7, 18, 32, 0.35);
 }
 
@@ -192,7 +192,7 @@ ol {
 
 .brand-logo-img {
   width: auto;
-  height: 34px;
+  height: 46px;
   object-fit: contain;
 }
 
@@ -248,8 +248,8 @@ ol {
   border-radius: 14px;
   padding: 0.55rem;
   background: var(--color-white);
-  box-shadow: 0 22px 48px rgba(10, 37, 64, 0.28);
-  border: 1px solid rgba(10, 37, 64, 0.08);
+  box-shadow: 0 22px 48px rgba(11, 17, 28, 0.28);
+  border: 1px solid rgba(11, 17, 28, 0.08);
   opacity: 0;
   transform: translateY(-10px);
   pointer-events: none;
@@ -272,7 +272,7 @@ ol {
 
 .dropdown-menu a:hover,
 .dropdown-menu a.active {
-  background: rgba(91, 94, 166, 0.08);
+  background: rgba(100, 104, 107, 0.08);
 }
 
 .dropdown-menu a.active .dropdown-label {
@@ -329,7 +329,7 @@ ol {
   opacity: 0;
   transform: translateY(-8px);
   transition: max-height 0.35s ease, opacity 0.3s ease, transform 0.3s ease;
-  background: rgba(10, 37, 64, 0.98);
+  background: rgba(11, 17, 28, 0.98);
 }
 
 .mobile-menu.menu-open {
@@ -466,7 +466,7 @@ ol {
 
 .footer-logo .brand-logo-img {
   width: auto;
-  height: 36px;
+  height: 52px;
 }
 
 .social-links {

@@ -1,6 +1,6 @@
 .home-hero {
   padding-top: 8rem;
-  background: linear-gradient(140deg, rgba(10, 37, 64, 0.96), rgba(10, 37, 64, 0.72));
+  background: linear-gradient(140deg, rgba(11, 17, 28, 0.96), rgba(11, 17, 28, 0.72));
   color: var(--color-white);
 }
 
@@ -82,7 +82,7 @@
 }
 
 .about {
-  background: #eff3fb;
+  background: #ECEFF2;
 }
 
 .about-grid {
@@ -112,13 +112,13 @@
 .pricing-card {
   padding: 1.5rem;
   border-radius: var(--radius-card);
-  border: 1px solid rgba(10, 37, 64, 0.1);
+  border: 1px solid rgba(11, 17, 28, 0.1);
   background: var(--color-white);
   box-shadow: var(--shadow-card);
 }
 
 .pricing-card.featured {
-  border-color: rgba(0, 196, 140, 0.44);
+  border-color: rgba(213, 183, 121, 0.44);
   transform: translateY(-4px);
 }
 
@@ -162,7 +162,7 @@
 .contact-form textarea {
   width: 100%;
   margin-top: 0.45rem;
-  border: 1px solid rgba(10, 37, 64, 0.18);
+  border: 1px solid rgba(11, 17, 28, 0.18);
   border-radius: var(--radius-btn);
   padding: 0.75rem 0.8rem;
   font: inherit;

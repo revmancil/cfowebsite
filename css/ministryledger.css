@@ -11,7 +11,7 @@
 
 .product-stat-card {
   background: var(--color-white);
-  border: 1px solid rgba(91, 94, 166, 0.18);
+  border: 1px solid rgba(100, 104, 107, 0.18);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
   padding: 1.85rem;
@@ -37,7 +37,7 @@
   background: var(--color-white);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
-  border: 1px solid rgba(10, 37, 64, 0.08);
+  border: 1px solid rgba(11, 17, 28, 0.08);
   padding: 1.4rem;
   transition: var(--transition);
 }
