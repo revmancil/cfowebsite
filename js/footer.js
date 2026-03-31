@@ -33,7 +33,7 @@
       <div class="container footer-grid">
         <div class="footer-brand">
           <a href="./index.html" class="footer-logo">
-            <img src="./assets/icons/mc3-tech-logo.svg" alt="MC3 Tech Labs logo" class="brand-logo-img">
+            <img src="./assets/icons/MC3_Full_Logo_Transparent_Original.png" alt="MC3 Tech Labs logo" class="brand-logo-img">
             <span>MC3 Tech Labs</span>
           </a>
           <p>

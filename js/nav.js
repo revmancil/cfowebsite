@@ -2,7 +2,7 @@ const NAV_TEMPLATE = `
   <nav class="navbar" id="navbar">
     <div class="nav-inner">
       <a href="./index.html" class="nav-logo" aria-label="MC3 Tech Labs home">
-        <img src="./assets/icons/mc3-tech-logo.svg" alt="MC3 Tech Labs logo" class="brand-logo-img" />
+        <img src="./assets/icons/MC3_Full_Logo_Transparent_Original.png" alt="MC3 Tech Labs logo" class="brand-logo-img" />
       </a>
       <ul class="nav-links">
         <li class="nav-dropdown">
