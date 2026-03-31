@@ -4,6 +4,18 @@
   color: var(--color-white);
 }
 
+.hero-brand-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-top-logo {
+  display: block;
+  width: min(460px, 92%);
+  height: auto;
+  margin: 0 auto 2rem;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -13,12 +25,6 @@
 
 .hero-copy h1 {
   font-size: clamp(2rem, 5vw, 3.25rem);
-}
-
-.hero-brand-logo {
-  width: min(420px, 88%);
-  height: auto;
-  margin: 0 auto 1rem;
 }
 
 .hero-copy p {
@@ -52,7 +58,6 @@
   border-radius: var(--radius-card);
   padding: 1.8rem;
   box-shadow: var(--shadow-card);
-  margin-top: clamp(3rem, 5vw, 4.5rem);
 }
 
 .hero-card h2 {
@@ -206,8 +211,8 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .hero-card {
-    margin-top: 0;
+  .hero-top-logo {
+    margin-bottom: 1.4rem;
   }
 }
 
