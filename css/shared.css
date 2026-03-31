@@ -191,8 +191,8 @@ ol {
 }
 
 .brand-logo-img {
-  width: 32px;
-  height: 32px;
+  width: auto;
+  height: 34px;
   object-fit: contain;
 }
 
@@ -465,8 +465,8 @@ ol {
 }
 
 .footer-logo .brand-logo-img {
-  width: 34px;
-  height: 34px;
+  width: auto;
+  height: 36px;
 }
 
 .social-links {
